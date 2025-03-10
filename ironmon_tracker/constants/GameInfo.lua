@@ -2,6 +2,7 @@ GameInfo = {}
 
 GameInfo.VERSION_NUMBER = {
     DIAMOND = 0x45414441,
+    DIAMOND_DE = 0x44414441,
     PEARL = 0x45415041,
     PLATINUM = 0x45555043,
     HEART_GOLD = 0x454B5049,
@@ -14,6 +15,22 @@ GameInfo.VERSION_NUMBER = {
 
 GameInfo.GAME_INFO = {
     [GameInfo.VERSION_NUMBER.DIAMOND] = {
+        GEN = 4,
+        NAME = "Pokemon Diamond",
+        BADGE_PREFIX = "DPPT",
+        VERSION_GROUP = 1,
+        ENEMY_PARTY_OFFSET = 0xB60,
+        ACTIVE_PID_DIFFERENCE = 0x180,
+        ENCRYPTED_POKEMON_SIZE = 236,
+        GYM_TMS = {76, 86, 60, 55, 65, 91, 72, 57},
+        TRAINERS = TrainerData.TRAINERS[GameInfo.VERSION_NUMBER.DIAMOND],
+        LOCATION_DATA = LocationData.LOCATION_DATA[GameInfo.VERSION_NUMBER.PLATINUM],
+        PIVOT_TYPES = {
+            ["Old Rod"] = true,
+            ["Grass/Cave"] = true
+        }
+    },
+    [GameInfo.VERSION_NUMBER.DIAMOND_DE] = {
         GEN = 4,
         NAME = "Pokemon Diamond",
         BADGE_PREFIX = "DPPT",
