@@ -1,5 +1,7 @@
-# NDS-Ironmon-Tracker
+# NDS-Ironmon-Tracker-German
 
+This version currently only supports Pokémon Diamond and has no translations. The only benefit is that it is compatible with the German version.
+If there is interest, I can also add support for other versions as well as a German UI.
 
 https://user-images.githubusercontent.com/61294586/173255404-ecd702ad-b23d-4b1c-a6ce-b98c09270c9d.mp4
 
