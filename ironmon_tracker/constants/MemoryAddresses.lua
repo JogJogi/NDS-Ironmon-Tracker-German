@@ -144,6 +144,35 @@ MemoryAddresses[GameInfo.VERSION_NUMBER.DIAMOND] = {
     }
 }
 
+MemoryAddresses[GameInfo.VERSION_NUMBER.DIAMOND_DE] = {
+    GLOBAL_POINTER = 0xB70,
+    VERSION_POINTER_OFFSET = 0x20,
+    VERSION_POINTER_OFFSETS = {
+        parentMapHeader = 0x144C,
+        childMapHeader = 0x144C,
+        enemyTrainerID = 0x42A8E,
+        playerBase = 0x2AC,
+        playerBattleBase = 0x4C7D8,
+        enemyBase = 0x4CD88,
+        playerBattleMonPID = 0x485E8,
+        enemyBattleMonPID = 0x486A8,
+        itemStartNoBattle = 0xD54,
+        itemStartBattle = 0x4546C,
+        statStagesPlayer = 0x48598,
+        statStagesEnemy = 0x48658,
+        enemyPokemonID = 0x48640,
+        berryBagStart = 0xDF4,
+        berryBagStartBattle = 0x4550C,
+        badges = 0x292,
+        repelSteps = 0x764C,
+        facingDirection = 0x24A5C,
+        battleSubscriptMsgs = 0x458F0
+    },
+    GLOBAL = {
+        battleStatus = 0x23BB38
+    }
+}
+
 MemoryAddresses[GameInfo.VERSION_NUMBER.PEARL] = {
     GLOBAL_POINTER = 0xB70,
     VERSION_POINTER_OFFSET = 0x20,
