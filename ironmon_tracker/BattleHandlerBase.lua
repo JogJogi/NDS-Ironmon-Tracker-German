@@ -4,6 +4,7 @@ local JoypadEventListener = dofile(Paths.FOLDERS.UI_BASE_CLASSES .. "/JoypadEven
 BattleHandlerBase = {
     BATTLE_STATUS_TYPES = {
         [0x2100] = true,
+        [0x9037] = true,
         [0x2101] = true,
         [0x2800] = false
     },
